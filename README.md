@@ -13,6 +13,7 @@ gcc spidev_test.c -o spidec_test
 
 And then connect BBB's P9_18(DI) and P9_21(DO), run below command:
 ./spidev_test
+
 root@beaglebone:~/tomxue# ./spidev_test
 spi mode: 0
 bits per word: 8
